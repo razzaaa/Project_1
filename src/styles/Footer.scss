@@ -1,0 +1,50 @@
+@import "Colors";
+
+footer{
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    color: $LightBlack;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: 2rem;
+
+
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h1{
+            font: 700 2rem "Roboto";
+            text-transform: uppercase;
+            color: $Blue;
+        }
+
+        p{
+            font: 500 1.2rem "Roboto";
+        }
+
+        h4{
+            font: 300 2rem "Roboto";
+            margin: 1rem 0;
+            text-align: center;
+        }
+
+        div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            a{
+                color: $LightBlack;
+                font: 900 1rem cersive;
+
+                &:hover{
+                    color: $Blue;
+                }
+            }
+        }
+    }
+
+}
